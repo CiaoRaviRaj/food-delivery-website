@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,800;1,900&display=swap');
+
+
 /*//desktop*/
 * {
     margin: 0;
@@ -119,7 +122,7 @@ header,
 .hero__header > h1 {
 
     background: none;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 58px;
     line-height: 80px;
     letter-spacing: 0.2px;
@@ -607,7 +610,7 @@ header,
         padding: 10px;
 
 
-        font-weight: 900;
+        font-weight: 700;
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.2px;
