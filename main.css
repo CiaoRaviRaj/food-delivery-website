@@ -80,8 +80,7 @@ header,
 
 .hero__container {
     width: 100%;
-    min-height: 619px;
-    height: 100%;
+    
 
     background-image: url(./utility/hero_bg.png);
     background-size: cover;
@@ -159,7 +158,7 @@ header,
 
     background: none;
 
-
+    margin-bottom: 146px;
 }
 
 .hero__playstore__button {
@@ -212,6 +211,8 @@ header,
     text-align: center;
     color: #ffffff;
     z-index: 10;
+    
+    
 
 }
 
@@ -342,7 +343,7 @@ header,
     margin-top: 50px;
 
     overflow: hidden;
-    object-fit: cover;
+    object-fit: contain;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
 }
 
@@ -576,8 +577,7 @@ header,
 
     /*    HERO SECTION*/
     .hero__container {
-        min-height: 778px;
-        height: 100%;
+        
         background: #fafafa;
 
     }
@@ -646,7 +646,7 @@ header,
 
         background-color: #fafafa;
 
-
+        margin-bottom: 253px;
     }
 
     .hero__playstore__button {
@@ -702,7 +702,7 @@ header,
     .about__image__2 {
         width: 219;
         height: 408px;
-        object-fit: cover;
+        object-fit: contain;
         background: none;
         margin-top: 84px;
         margin-left: -27px;
@@ -761,12 +761,7 @@ header,
         margin-top: 17px;
         width: 650px;
         height: 581px;
-
-        background: none;
         height: 581px;
-        overflow: hidden;
-        object-fit: cover;
-        filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
     }
 
     /*    EXPORLE SECTION*/
